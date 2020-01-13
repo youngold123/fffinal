@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Georgia, serif;
+  	font-size: 100%;
+  	line-height: 1.75em;
+	color: white;
+	background-color:lightyellow;
+}
+
+h2 {
+	color:red;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+
+img {
+    width: 250px;  
+    transition: width 2s, filter 1s;
+}
+
+img:hover {
+    width: 300px;
+    filter: brightness(150%);
+}
+
+p{
+	font-family:Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+}
+
+a { text-decoration: none; }
+a:link { color: maroon; }
+a:visited { color: gray; }
+a:focus { color: maroon; background-color: #ffd9d9; }
+a:hover { color: maroon; background-color: #ffd9d9; } a:active { color: red; background-color: #ffd9d9; }
+
+.Theme {
+	height: 10%;
+	width: 100%;
+	background-color: chocolate;
+	font: bold 1.5em "Marko One", Georgia, serif;
+  	color: white;
+  	text-shadow: .1em .1em .2em lightslategray;
+	font-size: 50px;
+}
+
+.one{
+	background-color: indianred;
+	text-align: center;
+}
+
+.two{
+	background-color: indianred;
+	float:center;
+	text-align: center;
+}
+
+.three{
+	background-color: indianred;
+	
+}
+
+.four{
+	color: white;
+	text-align: center;
+	background-color: indianred;
+}
+
+.footer{color: white;
+	text-align: center;
+	background-color: indianred;
+	
+}
